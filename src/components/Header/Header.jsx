@@ -10,6 +10,7 @@ const Header = () => {
         (sum, item) => sum + item.count,
         0
     );
+    const displayCount = cartCount > 9 ? '9+' : cartCount;
 
     return (
         <header className="header">
@@ -35,7 +36,7 @@ const Header = () => {
                         cart
                         {cartCount > 0 && (
                             <span className="cart-count">
-                                {cartCount}
+                                {displayCount}
                             </span>
                         )}
                     </Link>
