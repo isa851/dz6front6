@@ -1,0 +1,30 @@
+.card {
+
+    &-item {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+
+            &-img {
+                width: 200px;
+            }
+        }
+
+        &-right {
+            display: flex;
+            column-gap: 20px;
+            align-items: center;
+
+            &-count {
+                display: flex;
+                column-gap: 10px;
+            }
+        }
+    }
+}

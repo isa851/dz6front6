@@ -1,0 +1,43 @@
+.header{
+    background-color: #252525;
+    padding: 20px 0;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    &-logo{
+        font-size: 36px;
+    }
+    &-nav{
+        display: flex;
+        column-gap: 20px;
+        &-link{
+            font-size: 18px;
+        }
+    }
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: crimson;
+  color: #fff;
+  font-size: 12px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
